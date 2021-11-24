@@ -1,5 +1,5 @@
 {
-  "name": "home",
+  "name": "runstack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,16 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cookie-parser": "^1.4.5",
-    "dotenv": "^10.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-validator": "^6.12.0",
-    "http-errors": "^1.8.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.2",
-    "multer": "^1.4.2"
+    "express": "^4.17.1"
   },
   "engines": {
   	"node": "14.15.4"
