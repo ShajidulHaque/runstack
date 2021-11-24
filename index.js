@@ -1,11 +1,12 @@
 const express = require('express');
+const path = require('path');
 
 const app = express();
+const port = process.env.PORT || 8080;
 
+// sendFile will go here
 app.get('/', (req, res) => {
-    res.send('hi');
+  res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-app.listen(3000, () => {
-    console.log("server is runing");
-});
+app.listen(port);
